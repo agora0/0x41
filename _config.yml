@@ -9,6 +9,15 @@ gh_repo: agorahub/pen0
 # Build settings
 markdown: kramdown
 theme: minima
+feed:
+  posts_limit: 50
+  collections:
+    heros:
+      path: "/heros.xml"
+    columns:
+      path: "/columns.xml"
+    hkers:
+      path: "/hkers.xml"
 plugins:
   - jekyll-feed
   - octopress-paginate
